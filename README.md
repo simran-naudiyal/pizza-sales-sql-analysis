@@ -1,11 +1,11 @@
-# Pizza Sales SQL Analysis Project 🍕📊
+# Pizza Sales SQL Analysis Project 
 
-## 📝 Project Overview
+##  Project Overview
 The **Pizza Sales SQL Project** is designed to analyze pizza sales data using SQL queries and database management techniques. The project focuses on understanding customer ordering patterns, sales performance, and revenue generation. Various SQL concepts such as JOINS, Aggregate Functions, GROUP BY, and Window Functions are used to extract meaningful insights from the data, supporting better decision-making for restaurant management.
 
 ---
 
-## 🏗️ Database Architecture
+##  Database Architecture
 The analysis is executed across four interconnected tables, mapping transactional data directly to product attributes:
 * **`orders`**: Logs core transaction endpoints (`order_id`, `date`, `time`).
 * **`order_details`**: Captures granular line items within each transaction (`order_details_id`, `order_id`, `pizza_id`, `quantity`).
@@ -14,7 +14,7 @@ The analysis is executed across four interconnected tables, mapping transactiona
 
 ---
 
-## 🎯 Key Business Insights & Objectives
+##  Key Business Insights & Objectives
 
 ### 1. Financial Performance Analysis
 * **Total Dataset Volume**: Processed annual dataset representing 21,350 unique rows.
@@ -44,9 +44,9 @@ The analysis is executed across four interconnected tables, mapping transactiona
 
 ---
 
-## 📁 Project Repository Directories & Navigation
+##  Project Repository Directories & Navigation
 
 All backend code scripts and frontend visualization reports are organized into dedicated file paths below:
 
-* 📄 **[SQL Script File](./pizza_queries.sql)**: Contains the complete development script engine for all 18 business case studies—including advanced multi-table relational joins, data aggregation grouping matrices, and complex analytical window functions (`LAG`, `LEAD`, `DENSE_RANK`, running totals).
-* 📊 **[Executive Presentation Report](./Pizza%20sales%20report.pptx)**: Contains the complete stakeholder slide presentation report mapping visual trend charts, performance indicators, and execution matrices.
+*  **[SQL Script File](./pizza_queries.sql)**: Contains the complete development script engine for all 18 business case studies—including advanced multi-table relational joins, data aggregation grouping matrices, and complex analytical window functions (`LAG`, `LEAD`, `DENSE_RANK`, running totals).
+*  **[Executive Presentation Report](./Pizza%20sales%20report.pptx)**: Contains the complete stakeholder slide presentation report mapping visual trend charts, performance indicators, and execution matrices.
